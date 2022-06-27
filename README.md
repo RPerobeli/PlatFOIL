@@ -8,4 +8,4 @@ PlatFOIL is an optimization algorithm developed by Rodrigo Perobeli SIlva Costa 
 
 ### After these configuration steps, run Otimizador.m to start the GA.
 
-###If XFOIL isn't installed, by running Otimizador.m for the first time, it should download XFOIL before running the algorithm.
+### If XFOIL isn't installed, by running Otimizador.m for the first time, it should download XFOIL before running the algorithm.
