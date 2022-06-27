@@ -5,6 +5,7 @@ PlatFOIL is an optimization algorithm developed by Rodrigo Perobeli SIlva Costa 
 ### Then:
 * Insert the folder CustomByRPSC into PlatEMO's problems/SingleObjectiveOptimization folder;
 * At Tutorial folder, in file Otimizador.m, change the addpath to a new one that references PlatEMO repo folder.
+* Change the optimization conditions (Reynolds-Re, Mach-M, and alpha) in both CustomXFOIL.m (already in PlatEMO folder) and Otimizador.m files.
 
 ### After these configuration steps, run Otimizador.m to start the GA.
 
