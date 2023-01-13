@@ -12,10 +12,10 @@ classdef CustomXFOIL < PROBLEM
         function Setting(obj)
             % Parameter setting
             obj.M = 1;
-            % definição do numero de variaveis de controle, 4*numero de
+            % definiÃ§Ã£o do numero de variaveis de controle, 4*numero de
             % pontos de controle de bezier (xUp, yUp, xLow, yLow)
             if isempty(obj.D); obj.D = 16; end
-            obj.encoding = 'real';
+            obj.encoding = ones(1,obj.D); %Enconding 1 Ã© acodificacao numeros REAIS - olhar o arquivo PROBLEM.m do platemo para verificar outras codificacoes
             thickness = 0.2;
             obj.lower = zeros(1, obj.D);
             obj.upper = zeros(1, obj.D);
